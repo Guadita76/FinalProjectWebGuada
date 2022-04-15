@@ -44,7 +44,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 DATABASES = {
     "default": env.db(
         "DATABASE_URL",
-        default="postgres://localhost/projectwebguada",
+        default="postgres://unwtrvaw:RrilAoiJduLKT9urvcKAf3vK7QNugGGg@heffalump.db.elephantsql.com/unwtrvaw",
     ),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
